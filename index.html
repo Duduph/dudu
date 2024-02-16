@@ -4,6 +4,109 @@
     <title> test</title>
 </head>
 <body>
-    <h1>titulo</h1>
-    <p>paragrafo13</p>
+    <h1>formulario</h1>
+    <hr>
+    <form>
+        <header>
+            <label for="pnome">primeiro Nome</label> <br>
+            <input type="text"id="pnome" value="pnome"> <br>
+            <label for="Sobrenome">Sobrenome</label> <br>
+            <input type="text"id="Sobrenome" name="Sobrenome">
+
+            <hr>
+            <h3>Sexo</h3>
+        <input type="radio" id="M" name="Sexo" value="Masculino"  >
+        <label for="M">Masculino</label><br>
+        <input type="radio" id="F" name="Sexo" value="Feminino"  >
+        <label for="F">Feminino</label>
+
+        <hr>
+
+        <h3>Fruta Favorita</h3>
+        <input type="checkbox" id="Fruta1" name="Fruta1" value="manga">
+        <label for="Fruta1">manga</label><br>
+        <input type="checkbox" id="Fruta2" name="Fruta2" value="Abacaxi">
+        <label for="Fruta2">Abacaxi</label><br>
+        <input type="checkbox" id="Fruta3" name="Fruta" value="Pera">
+        <label for="Fruta3">Pera</label><br>
+
+        <hr>
+        <input type="button" onclick= "alert ('Olá')" value="Aperte Aqui">
+        
+        <hr>
+            <label for="Cor">Escolha uma cor</label>
+        <input type="color" id="Cor" name="Cor">
+
+        <hr>
+
+        <label for="Data">Data de Nascimento</label>
+        <input type="date" id="Data" name="Data">
+
+        <hr>
+        <label for="Datahora">Data e hora</label>
+        <input type="datetime-local" id="Datahora" name="Datahora">
+
+        <hr>
+
+            <label for="mesano">mes e ano</label>
+            <input type="month" id="mesano" name="mesano">
+
+        <hr>
+
+        <label for="Email">Email</label>
+        <input type="Email" id="Email" name="Email">
+
+        <hr>
+
+        <input type="image" src="butão.png">
+
+        <hr>
+
+        <label for="Arquivos">Selecione um Arquivo</label>
+        <input type="file" id="Arquivos" name="Arquivos"> 
+
+        <hr>
+        <label for="numero">Escolha um valor entre 1 e 15</label>
+        <input type="number" id="numero" name="numero" min="1" max="15">
+
+        <hr>
+        <label for="opcao">Escolha um Item</label>
+            <select id="opcao"name="Fruta">
+                <option value="F1">banana</option>
+                <option value="F2" selected>manga</option>
+                <option value="F3">Abacaxi</option>
+
+            </select>
+
+            <hr>
+            <label for="opcao">Escolha um Item</label>
+                <select id="opcao"name="Fruta" size="2" multiple>
+                    <option value="F1">banana</option>
+                    <option value="F2">manga</option>
+                    <option value="F3">Abacaxi</option>
+                </select>
+
+                <hr>
+                <legend>Escreva sua menssagem</legend>
+
+                <textarea 
+                
+                name="mensagem" rows="6" cols="40">
+
+                </textarea>
+
+                <hr>
+
+                <input list="browsers">
+                 <datalist id="browsers">
+                  <option value="Edge">
+                  <option value="Firefox">
+                   <option value="Chrome">
+                   <option value="Opera">
+                    <option value="Safari">
+                 </datalist>
+                 
+            </form>
+          </header>
+        
 </body>
