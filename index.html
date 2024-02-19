@@ -2,19 +2,40 @@
 <html>
 <head>
     <title> test</title>
+    <link rel="stylesheet" href="styles.css">
+    <!--
+        <style>
+        h1{
+            color: chartreuse;
+            font-size: 30px;
+        }
+        form{
+            background-color: red;
+        }
+
+    </style>
+    -->
+    
+
+
 </head>
 <body>
-    <h1>formulario</h1>
+    <h1 style="color: rgb(255, 0, 0); font-size: 300%;" > formulário</h1>
+        <h1>testando</h1>
+        <h1>teste two2</h1>
     <hr>
-    <form>
-        <header>
+    <form
+    oninput="x.value = parseint (a.value)+parsenit(b.value)" 
+    >
+
+
             <label for="pnome">primeiro Nome</label> <br>
             <input type="text"id="pnome" value="pnome"> <br>
             <label for="Sobrenome">Sobrenome</label> <br>
             <input type="text"id="Sobrenome" name="Sobrenome">
 
             <hr>
-            <h3>Sexo</h3>
+            <h3 style="background-color: blue;" >Sexo</h3>
         <input type="radio" id="M" name="Sexo" value="Masculino"  >
         <label for="M">Masculino</label><br>
         <input type="radio" id="F" name="Sexo" value="Feminino"  >
@@ -104,8 +125,33 @@
                    <option value="Chrome">
                    <option value="Opera">
                     <option value="Safari">
-                 </datalist>
+                 </datalist><br>
+                 0
+                 <input type="range" id="a" name="a" value="50">
+                 100 +
+                 <input type="number" id="b" name="b" value="50">
+                 =
+                 <output name="x" for="a b"></output>
+
+                 <hr>
+
+                 <video width="50%" controls muted>
+
+                    <source src="Kawe - Velocidade (Clipe Oficial).mp4" type="video/mp4">
+                 </video>
+                 <br>
                  
+                 <iframe width="560" height="315" src="https://www.youtube.com/embed/2OutJUdvwGY?si=wLFDTyXNcMQUn46u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
+
+
             </form>
           </header>
         
